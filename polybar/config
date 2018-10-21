@@ -58,7 +58,7 @@ line-color = #f00
 border-size = 0
 
 padding-left = 0
-padding-right = 0
+padding-right = 1
 
 module-margin-left = 1
 module-margin-right = 0
@@ -105,6 +105,10 @@ label-urgent = %index%!
 label-urgent-background = ${colors.grn}
 label-urgent-padding = 2
 
+label-empty = 
+label-empty-background = ${colors.bg}
+label-empty-padding = 2
+
 ; Separator in between workspaces
 ; label-separator = |
 
@@ -129,7 +133,7 @@ interval = 5
 date =
 date-alt = " %Y-%m-%d"
 
-time = %H:%M
+time = %I:%M
 time-alt = %H:%M:%S
 
 label = %date% %time%
